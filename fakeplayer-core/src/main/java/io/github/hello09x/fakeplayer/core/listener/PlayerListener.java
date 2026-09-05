@@ -41,4 +41,19 @@ public class PlayerListener implements Listener {
         }
     }
 
+    /**
+     * Prevent players from opening fake player inventories
+     */
+    @EventHandler(priority = EventPriority.HIGHEST)
+    public void onInteractEntity(@NotNull org.bukkit.event.player.PlayerInteractEntityEvent event) {
+        var clicked = event.getRightClicked();
+        if (!(clicked instanceof Player target)) {
+            return;
+        }
+        if (manager.isFake(target)) {
+            event.setCancelled(true);
+            event.getPlayer().sendMessage("§cYou cannot open a fake player's inventory.");
+        }
+    }
+
 }
