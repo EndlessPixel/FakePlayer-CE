@@ -1,3 +1,6 @@
+> ⚠️ **本仓库已归档并迁移至 [EndlessPixel-Studio/FakePlayer-CE](https://github.com/EndlessPixel-Studio/FakePlayer-CE)。**
+> 后续更新、Bug 反馈与功能请求请前往**新仓库**提交 Issue / PR，旧仓库不再维护。
+
 # FakePlayer CE（社区版）
 
 

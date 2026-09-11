@@ -1,3 +1,6 @@
+> ⚠️ **This repository has been archived and moved to [EndlessPixel-Studio/FakePlayer-CE](https://github.com/EndlessPixel-Studio/FakePlayer-CE).**
+> All future updates, bug reports, and feature requests must be submitted as Issues/PRs in the **new repository**. This repo is no longer maintained.
+
 # FakePlayer CE (Community Edition)
 
 English | [简体中文](README_zh.md)
